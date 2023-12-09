@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Henrique</title>
+    <link rel="stylesheet" href="index.css"> <!-- Realizando a conexão com o css-->
+</head>
+
+<body>
+    <div class="barreira"> <!-- Utilizando a classe que foi configurada no index.css para ajustar a largura da pagina e comportar o texto-->
+        <nav><!-- Configurando o botões do topo da pagina-->
+            <ul>
+                <li>
+                    <!-- Ações para direcionar uma nova pagina-->
+                    <a href="https://www.linkedin.com/in/brunohenriquebezerra/" target="_blank" rel="noopener noreferrer">Sobre mim</a>
+                    <a href="https://www.notion.so/brunobezerra/Bruno-Henrique-0f8bc61f490c46c2900c7a36f0192bcb" target="_blank" rel="noopener noreferrer">Meus projetos</a>
+                
+                </li>
+            </ul>
+        </nav>
+        <header><!-- Utilizando a classe que foi configurada no index.css-->
+            <div class="alinhar">
+                <!-- Inserindo a foto de rosto-->
+                <img src="./BRUNO SP.jpg"></img>
+            </div>
+            <h1>Bruno Henrique Bezerra</h1>
+            <h2>Analista de Dados</h2>
+        </header>
+<!-- Adicionado o texto do 'corpo do texto'-->
+        <main>
+            <section id="sobre-mim">
+                <h3>Sobre mim </h3>
+                <p>Sou formado em Administração pela UFRPE(2018), com pós graduação em Análise de Dados(2022) pela Faculdade Descomplica
+                    e estudando Ciências de Dados pela UNINTER(Atual). <br>
+                    Mais de 2 anos na área comercial/tecnologia guiado por uma cultura Data Driven para tomada de decisão
+                    e orientada por dados. Tive a oportunidade de auxiliar supervisores e coordenadores a modelagem metas e aperfeiçoarem processos com base em análise de dados nas minhas oportunidades no setor comercial.
+                    Atualmente sou responsável por analisar dados do RH e de remuneração construindo cenários preditivos, modelagem de planilhas e melhoria contínua dos processos de coleta e manipulação de dados.
+                    Background em análise de dados e automatização de processos.
+                    Conhecimento nas ferramentas MySQL, Python, Looker, Power BI, Excel e Google Sheets
+                </p>
+            </section>
+            <section id="formacao">
+                <h3>Formação </h3>
+                <p>Sou formado em Administração pela UFRPE(2018), com pós graduação em Análise de Dados(2022) pela Faculdade Descomplica
+                    e estudando Ciências de Dados pela UNINTER(Atual).
+                </p>
+            </section>
+            <section id="skills">
+                <h3>Skills Técnicas </h3>
+                <p>Python | Power BI | MySQL | Looker | Google Sheets | Excel | Google Slides | Power Point | Notion | Trello | VS Code | SQL Server | Trello
+                </p>
+            </section>
+            <section>
+                <h3>Contato</h3>
+                <p>Você pode entrar em contato comigo através do formulário abaixo ou pelos seguintes meios:</p>
+                <ul>
+                    <li>Email: <a href="mailto:seuemail@email.com">brunobezerrahenrique@email.com</a></li> <!-- Inserindo comando que faz a conexão com o email-->
+                    <li>
+                        Telefone: (81) 98952-5452</li>
+                </ul><!-- Construção do formulario de contato-->
+                <form action="processar_formulario.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+
+        </main>
+        <!-- Botões das redes sociais com as ações de redirecionar a pagina-->
+        <footer id="contato">
+            <a href="https://www.linkedin.com/in/brunohenriquebezerra/" target="_blank" rel="noopener noreferrer">
+                <img src="./linkedin.png"></img>
+                <p>LinkendIn</p>
+            </a>
+            <a href="https://www.notion.so/brunobezerra/Bruno-Henrique-0f8bc61f490c46c2900c7a36f0192bcb" target="_blank" rel="noopener noreferrer">
+                <img src="./notion.png"></img>
+                <p>Notion</p>
+            </a>
+            <a href="https://github.com/brunobezerrahenrique" target="_blank" rel="noopener noreferrer">
+                <img src="./git.png"></img>
+                <p>Github</p>
+            </a>
+        </footer>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+ /*Construção das melhorias 
+ Corpo da pagina */
+
+body{
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Nav ajustada -*/
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+/* Ajustes apenas nas imagens do header */
+
+header img{
+    width: 300;
+    height: 165px;
+    border-radius: 70%;
+    border: 5px solid #192a56;
+}
+
+/* Alinhar minha imagem no centro da pagina */
+.alinhar{
+    text-align: center;
+}
+/*Ajustar cor das H1 */
+
+h1{
+    color: #192a56;
+
+}
+
+/* Ajustar tamanho das imagens do footer */
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+/*Ajustar espaçamento do footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+/* Ajustar espaçamento das imagens do footer */
+
+footer a{
+
+    margin: 35px;
+    text-align: center;
+}
+/*Ajustar largura da imagem com o texto do footer */
+
+footer p{
+    margin: 2px;
+}
+/*Ajustar largura do texto na pagina */
+
+.barreira{
+    padding: 0px 50px;
+
+}
+/*Colorir quando o mouse passa em cima dos textos da nav */
+
+nav a:hover{
+    color: #192a56
+}
